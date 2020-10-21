@@ -11,7 +11,7 @@ const CollectionsOverview = ({ collections }) => (
       <CollectionPreview key={id} {...otherCollectionProps} />
     ))}
   </div>
-);
+); 
 
 const mapStateToProps = createStructuredSelector({
   collections: selectCollections 
