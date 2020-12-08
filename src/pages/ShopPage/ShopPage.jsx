@@ -7,7 +7,7 @@ import { fetchCollectionsStart } from '../../redux/shop/shop.actions';
 
 class ShopPage extends React.Component {
 
-  componentDidMount() {
+  componentDidMount() { 
     const { fetchCollectionsStart } = this.props;
     fetchCollectionsStart();
   } 
